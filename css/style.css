@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.headerSection {
+    background: #2874f0;
+    width: 100%;
+    height: 56px;
+}
+
+.headerInside {
+    background: #2874f0;
+    width: 90%;
+    height: 56px;
+    margin: 0 9.2%;
+}
+
+.logo {
+    width: 136px;
+    height: 56px;
+    float: left;
+}
+
+.search {
+    width: 618px;
+    height: 56px;
+    float: left;
+}
+
+.menu1 {
+    width: 155px;
+    height: 56px;
+    float: left;
+}
+
+.menu2 {
+    width: 88px;
+    height: 56px;    
+    float: left;
+}
+
+.menu3 {
+    width: 95px;
+    height: 56px;
+    float: left;
+}
+
+.logoInside {
+    margin-left: 58px;
+    margin-top: 8px;
+}
+
+.logoImage {
+    width: 75px;
+    height: 20px;
+    margin-bottom: -8px;
+}
+
+.epi {
+    text-decoration: none;
+    font-size: 11px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.explore {
+    color: white;
+}
+
+.plus {
+    color: #ffe500;
+}
+
+.plusImage {
+    height: 10px;
+    width: 10px;
+}
+
+.searchForm {
+    width: 530px;
+    height: 30px;
+    padding: 4px 16px;
+    font-size: 13px;
+    color: #808080;
+    border: none;
+}
+
+.searchform {
+    padding: 8px;
+}
+
+.fa-search {
+    font-size: 18px;
+    color: #2874f0;
+    margin-left: -34px;
+}
+
+.login, .more, .cart {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    padding-left: 25px;
+    text-align: center;
+    height: 20px;
+    display: inline-block;
+    padding-top: 17px;
+}
+
+.more {
+    padding-left: 18px;
+}
+
+.cart {
+    padding-left: 18px;
+}
+
+.fa-shopping-cart {
+    font-size: 20px;
+    padding-right: 4px;
+}
+
+.headerSection2 {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+
+.HS2Contents {
+    width: 1248px;
+    height: 40px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8 { 
+    float: left;
+    text-align: center;
+    list-style: none;
+    font-size: 13px;
+    padding-top: 12px;
+    font-weight: 500px;
+}
+
+.c1 {
+    width: 100px;
+    margin-left: 8px;
+}
+
+.c2 {
+    width: 140px;
+    margin-left: 50px;
+}
+
+.c3 {
+    width: 60px;
+    margin-left: 50px;
+}
+
+.c4 {
+    width: 80px;
+    margin-left: 50px;
+}
+
+.c5 {
+    width: 106px;
+    margin-left: 50px;
+}
+
+.c6 {
+    width: 140px;
+    margin-left: 50px;
+}
+
+.c7 {
+    width: 166px;
+    margin-left: 50px;
+}
+
+.c8 {
+    width: 86px;
+    margin-left: 50px;
+}
+
+.contentSection {
+    height: 300px;
+    width: 100%;
+}
+
+.ciarrowl {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 70px;
+    border-radius: 6px;
+    margin-left: -13px;
+    background: white;
+    margin-top: -204px;
+    position: absolute;
+}
+
+.fa-chevron-left {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.ciarrowr {
+    position: absolute;
+    height: 100px;
+    display: block;
+    width: 70px;
+    border-radius: 6px;
+    float: left;
+    margin-top: -204px;
+    margin-left: 1290px;
+    background: white;
+}
+
+.fa-chevron-right {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    margin-top: 35px;
+    margin-left: -16px;
+}
+
+.mobileImage {
+    width: 98%;
+    height: 280px;
+    padding: 2px 1%;
+}
+
+.MiddleContent {
+    height: 370px;
+    width: 100%;
+}
+
+.contentLeft {
+    width: 76%;
+    height: 370px;
+    float: left;
+    margin: 14px;
+}
+
+.CLHeader {
+    height: 64px;
+    width: 100%;
+    color: lightblue;
+    float: left;
+}
+
+h2 {
+    margin: 0;
+    padding: 14px;
+    font-size: 22px;
+    float: left;
+    color: black;
+}
+
+button {
+    float: right;
+    height: 38px;
+    margin: 12px;
+    width: 96px;
+    background: #2874f0;
+    border: none;
+    color: white;
+}
+
+.clcImage1, .clcImage2, .clcImage3, .clcImage4, .clcImage5 {
+    height: 300px;
+    width: 195px;
+   margin-left: 8px;
+    float: left;
+}
+
+.clc1, .clc2, .clc3, .clc4, .clc5 {
+    height: 160px;
+    width: 150px;
+    padding: 20px;
+}
+
+.name {
+    font-size: 14px;
+    margin-top: -5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #388e3c;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: grey;
+}
+
+.contentRight {
+    width: 19%;
+    height: 370px;
+    float: left;
+    margin: 14px;
+}
+
+.crImage {
+    height: 372px;
+    width: 100%;
+}
